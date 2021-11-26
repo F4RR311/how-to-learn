@@ -21,7 +21,6 @@
 .logo {
   width: 183px;
 
-
 }
 
 .logo_place_header {
@@ -56,11 +55,7 @@
 }
 
 .header__subtitle {
-  display: flex;
   position: absolute;
-  flex-direction: row;
-  align-items: flex-end;
-  text-align: left;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
@@ -70,6 +65,7 @@
   max-width: 388px;
   width: 100%;
   z-index: 4;
+
 }
 
 .header__link {
@@ -77,6 +73,12 @@
   color: #2f80ed;
   text-decoration: none;
 
+}
+
+.header__link:hover {
+  color: gray;
+  background-color: transparent;
+  transition: 2s;
 
 }
 
@@ -112,7 +114,6 @@
   width: 80%;
   min-width: 784px;
   justify-content: space-between;
-
 
 }
 
@@ -185,7 +186,6 @@
   line-height: 34px;
   font-weight: normal;
   margin: 0;
-
 
 }
 
@@ -287,6 +287,13 @@
   text-decoration: none;
 }
 
+.feynman__link:hover {
+  color: gray;
+  background-color: transparent;
+  transition: 2s;
+
+}
+
 .kaufman {
   overflow: hidden;
   color: #f2f2f2;
@@ -297,7 +304,6 @@
   max-height: 890px;
   width: 100%;
   background-color: #000000;
-
 
 }
 
@@ -329,7 +335,7 @@
   top: 0;
   width: 877px;
   height: 877px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .footer {
@@ -381,7 +387,6 @@
 }
 
 .footer__column-links {
-  display: flex;
   list-style-type: none;
   flex-direction: column;
   margin-top: 0;
@@ -390,13 +395,20 @@
 }
 
 .footer__column-link {
-  display: flex;
-  justify-content: start;
   color: #f2f2f2;
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
+  transition: margin-left 4s 1s;
 }
+
+.footer__column-link:hover {
+  color: #2f80ed;
+  background-color: transparent;
+  text-decoration-color: #ffd829;
+  transition: 0.8s;
+}
+
 
 .footer__social-icon {
   padding-right: 10px;
