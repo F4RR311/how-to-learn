@@ -1,8 +1,4 @@
 
-section {
-  border: 1px solid red;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -167,54 +163,44 @@ section {
   align-items: center;
 }
 
+section, ul, li {
+  border: 1px solid red;
+}
+
 .cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-
+ align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+  /*flex-direction: row;*/
+  /*flex-wrap: wrap;*/
+  /*align-items: flex-start;*/
   padding: 0;
   width: 920px;
 
 
 }
 
-/*.table {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0;
-  width: 1100px;
-  margin-top: 0;
-  margin-bottom: 0;
-  justify-content: space-between;
+.cards :nth-of-type(3n) {
+  margin-right: 0;
 
 }
-
-.table__cell {
-  display: flex;
-  list-style: none;
-  width: 250px;
-  flex-wrap: wrap;
-  margin-top: 60px;
-  color: black;
-  align-content: start;
-
-}*/
-
 .cards__item {
   display: flex;
   position: relative;
   margin-right: 100px;
   margin-top: 60px;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0;
-  width: 160px;
-  height: 160px;
+  width: 230px;
+  align-items: center;
+
 
 
 }
+
 
 .cards__image {
   width: 160px;
@@ -224,23 +210,31 @@ section {
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom: 43px;
-  position: relative;
 
 
 }
 
 .cards__title {
-  position: relative;
+
   text-align: center;
   margin: 0;
-  width: 100%;
+
+
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
 
 }
 
 .cards__description {
   text-align: center;
-  position: relative;
+  margin-top: 16px;
   margin-bottom: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+
+
 }
 
 .digits {
@@ -310,7 +304,7 @@ section {
 .table__heading {
   margin-top: 0;
   margin-bottom: 20px;
-  display: flex;
+
   text-align: center;
   line-height: 1.15;
   font-size: 24px;
