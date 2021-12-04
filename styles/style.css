@@ -158,25 +158,18 @@
   border: 1px solid red;
   display: flex;
   width: 80%;
-  margin: 100px auto 100px;
+  margin: 100px auto 0;
   flex-direction: column;
   align-items: center;
-}
-
-section, ul, li {
-  border: 1px solid red;
 }
 
 .cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- align-items: flex-start;
+  align-items: flex-start;
   margin-top: 0;
   margin-bottom: 0;
-  /*flex-direction: row;*/
-  /*flex-wrap: wrap;*/
-  /*align-items: flex-start;*/
   padding: 0;
   width: 920px;
 
@@ -187,6 +180,8 @@ section, ul, li {
   margin-right: 0;
 
 }
+
+
 .cards__item {
   display: flex;
   position: relative;
@@ -196,7 +191,7 @@ section, ul, li {
   padding: 0;
   width: 230px;
   align-items: center;
-
+  /*white-space: nowrap;*/
 
 
 }
@@ -215,16 +210,15 @@ section, ul, li {
 }
 
 .cards__title {
-
   text-align: center;
   margin: 0;
-
-
   font-size: 24px;
   font-weight: bold;
   line-height: 1.15;
 
+
 }
+
 
 .cards__description {
   text-align: center;
@@ -237,8 +231,33 @@ section, ul, li {
 
 }
 
+
+.video {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 100px auto 0;
+}
+
+.video__iframes {
+  display: flex;
+  margin: 50px auto 0;
+  flex-direction: row;
+
+}
+
+.video__iframe {
+  margin-right: 20px;
+
+}
+
+.video__iframe:last-of-type {
+  margin-right: 0;
+
+}
+
 .digits {
-  border: 1px solid red;
   display: flex;
   margin-top: 100px;
   position: relative;
@@ -304,7 +323,6 @@ section, ul, li {
 .table__heading {
   margin-top: 0;
   margin-bottom: 20px;
-
   text-align: center;
   line-height: 1.15;
   font-size: 24px;
