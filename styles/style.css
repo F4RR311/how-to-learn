@@ -77,11 +77,18 @@
 
 .header__link:hover {
   background-color: transparent;
-
   transition: 0.8s;
   opacity: 20%;
 }
+@keyframes rotation{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 
+}
 .header__square-pic {
   width: 568px;
   height: 568px;
@@ -90,7 +97,9 @@
   margin-top: 64px;
   justify-content: right;
   background-color: #2f80ed;
+  animation:rotation 20s linear infinite alternate;
 }
+
 
 .content {
   display: flex;
@@ -189,7 +198,7 @@
   margin-top: 60px;
   flex-direction: column;
   padding: 0;
-  width: 230px;
+  width: 240px;
   align-items: center;
 
 
@@ -229,6 +238,8 @@
 
 
 }
+
+
 
 
 .video {
