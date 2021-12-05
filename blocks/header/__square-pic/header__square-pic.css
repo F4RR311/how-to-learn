@@ -6,5 +6,6 @@
   margin-top: 64px;
   justify-content: right;
   background-color: #2f80ed;
-  animation:rotation 20s linear infinite alternate;
+  animation: rotation 20s linear infinite;
+
 }
