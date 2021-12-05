@@ -156,7 +156,6 @@
 }
 
 .techniques {
-  border: 1px solid red;
   display: flex;
   width: 80%;
   margin: 100px auto 0;
@@ -279,7 +278,7 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 100%;
 
 }
 
@@ -548,6 +547,27 @@
   width: 877px;
   height: 877px;
   background-size: cover;
+}
+
+.resources {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1100px;
+  margin: 80px auto 217px auto;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
 }
 
 .footer {
