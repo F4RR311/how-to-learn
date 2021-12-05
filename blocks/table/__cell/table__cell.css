@@ -1,0 +1,13 @@
+.table__cell {
+  display: flex;
+  list-style: none;
+  width: 250px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  color: black;
+  align-content: start;
+}
+.table__cell p:last-of-type {
+  margin-bottom: 0;
+}
+

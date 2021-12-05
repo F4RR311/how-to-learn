@@ -4,7 +4,6 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-
 }
 
 .header {
@@ -148,7 +147,6 @@
 }
 
 .two-columns__paragraph {
-
   font-size: 24px;
   line-height: 34px;
   margin-bottom: 30px;
@@ -161,7 +159,6 @@
 
 .two-columns__span-accent {
   font-weight: bold;
-
 }
 
 .techniques {
@@ -181,8 +178,6 @@
   margin-bottom: 0;
   padding: 0;
   width: 920px;
-
-
 }
 
 .cards :nth-of-type(3n) {
@@ -200,8 +195,6 @@
   padding: 0;
   width: 240px;
   align-items: center;
-
-
 }
 
 
@@ -213,8 +206,6 @@
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom: 43px;
-
-
 }
 
 .cards__title {
@@ -223,8 +214,6 @@
   font-size: 24px;
   font-weight: bold;
   line-height: 1.15;
-
-
 }
 
 
@@ -235,8 +224,6 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 23px;
-
-
 }
 
 
@@ -256,18 +243,14 @@
   transform: initial;
   margin: 50px auto 0;
   flex-direction: row;
-
 }
 
 .video__iframe {
   margin-right: 20px;
-
 }
 
 .video__iframe:last-of-type {
   margin-right: 0;
-
-
 }
 
 .oakley {
@@ -279,8 +262,6 @@
   background-color: #f2f2f2;
   min-width: 784px;
   z-index: 1;
-
-
 }
 
 .digits {
@@ -290,7 +271,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-
 }
 
 .section-title {
@@ -315,8 +295,6 @@
   line-height: 34px;
   font-weight: normal;
   margin: 0;
-
-
 }
 
 .table {
@@ -328,7 +306,6 @@
   margin-top: 0;
   margin-bottom: 0;
   justify-content: space-between;
-
 }
 
 .table__cell {
@@ -339,12 +316,10 @@
   margin-top: 60px;
   color: black;
   align-content: start;
-
 }
 
 .table__cell p:last-of-type {
   margin-bottom: 0;
-
 }
 
 .table__heading {
@@ -377,8 +352,6 @@
   flex-direction: column;
   list-style-type: none;
   padding: 0;
-
-
 }
 
 .khan__author {
@@ -412,8 +385,6 @@
   font-weight: bold;
   margin: 36px 0 0;
   padding: 0;
-
-
 }
 
 .khan__quote-author-subline {
@@ -421,8 +392,6 @@
   font-size: 30px;
   font-weight: normal;
   margin: 10px 0 0;
-
-
 }
 
 .khan__book-container {
@@ -445,12 +414,9 @@
   font-size: 30px;
   text-decoration: none;
   color: #2f80ed;
-
-
 }
 
 .khan__buy-link:hover {
-
   background-color: transparent;
   transition: 0.8s;
   opacity: 20%;
@@ -483,7 +449,6 @@
   font-size: 120px;
   font-weight: bold;
   margin-bottom: 0;
-
 }
 
 .feynman__subtitle {
@@ -513,7 +478,6 @@
 .feynman__link:hover {
   transition: 0.8s;
   opacity: 20%;
-
 }
 
 .kaufman {
@@ -526,7 +490,6 @@
   max-height: 890px;
   width: 100%;
   background-color: #000000;
-
 }
 
 .section-title_theme_dark {
@@ -536,7 +499,6 @@
 
 .table_theme_dark {
   margin-bottom: 90px;
-
 }
 
 .table__cell_theme_dark {
@@ -545,7 +507,6 @@
   margin-right: 0;
   margin-top: 80px;
   color: white;
-
 }
 
 .kaufman__triangle {
@@ -588,7 +549,6 @@
   background-color: #000000;
   color: #f2f2f2;
   justify-content: center;
-
 }
 
 .footer__columns {
@@ -597,10 +557,9 @@
   justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 40px;
-
 }
 
-.footer_column_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -612,7 +571,6 @@
   margin-top: 18px;
   font-size: 18px;
   line-height: 25px;
-
 }
 
 .logo_place_footer {
@@ -626,7 +584,6 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: bolder;
-
 }
 
 .footer__column-links {
@@ -642,7 +599,6 @@
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
-
 }
 
 .footer__column-link:hover {
@@ -653,5 +609,4 @@
 
 .footer__social-icon {
   padding-right: 10px;
-
 }
