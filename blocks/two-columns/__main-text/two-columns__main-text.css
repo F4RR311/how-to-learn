@@ -3,5 +3,5 @@
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-
+  min-width: 784px;
 }

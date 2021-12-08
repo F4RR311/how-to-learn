@@ -3,10 +3,10 @@
   font-size: 30px;
   text-decoration: none;
   color: #2f80ed;
-}
-.khan__buy-link:hover {
-  background-color: transparent;
   transition: 0.8s;
+}
+
+.khan__buy-link:hover {
   opacity: 20%;
-  text-decoration: none;
+
 }

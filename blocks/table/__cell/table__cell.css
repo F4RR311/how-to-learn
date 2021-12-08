@@ -7,7 +7,7 @@
   color: black;
   align-content: start;
 }
-.table__cell p:last-of-type {
+.table__cell .table__text:last-of-type {
   margin-bottom: 0;
 }
 

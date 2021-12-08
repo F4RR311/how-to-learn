@@ -8,5 +8,6 @@
   width: 100%;
   z-index: 3;
   margin-left: 64px;
-
+ margin-top: 0;
+  margin-bottom: 0;
 }

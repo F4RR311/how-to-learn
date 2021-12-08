@@ -1,11 +1,9 @@
 .kaufman {
   overflow: hidden;
-  color: #f2f2f2;
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
-  max-height: 890px;
   width: 100%;
-  background-color: #000000;
+  background-color: #1f1f1f;
 }
