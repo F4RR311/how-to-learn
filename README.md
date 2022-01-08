@@ -5,7 +5,8 @@
  Реализован с помощью технологий: БЭМ, FLEX-BOX, HTML5, CSS3*
 
 
-Проекта доступен по ссылке [на GitHub Pages](https://f4rr311.github.io/how-to-learn/index.html)
+Проект доступен по ссылке [на GitHub Pages](https://f4rr311.github.io/how-to-learn/index.html)
 
+ ![](./images/wrapper.jpg)
 
 
